@@ -1,13 +1,13 @@
 # TaskFlow API — Build Progress Tracker
 
-> Last updated: 2026-03-03
+> Last updated: 2026-03-04
 
 ---
 
 ## Overall Progress
 
 ```
-Week 1 — Core API + Auth + EF Core     [ ░░░░░░░░░░ ]   0%
+Week 1 — Core API + Auth + EF Core     [ █░░░░░░░░░ ]  15%
 Week 2 — Notification Worker + Tests   [ ░░░░░░░░░░ ]   0%
 Week 3 — Deploy + Interview Prep       [ ░░░░░░░░░░ ]   0%
 ```
@@ -36,12 +36,12 @@ Week 3 — Deploy + Interview Prep       [ ░░░░░░░░░░ ]   0%
 - [ ] Clean up boilerplate (remove WeatherForecast from API)
 - [ ] Install NuGet packages (EF Core, SQL Server, MediatR, FluentValidation, Serilog, Swagger)
 - [ ] Define domain entities with Fluent API config
-  - [ ] `User`
-  - [ ] `Project`
-  - [ ] `TaskItem`
-  - [ ] `Comment`
-  - [ ] `ActivityLog`
-- [ ] Define enums (`TaskStatus`, `TaskPriority`, `UserRole`)
+  - [x] `User`
+  - [x] `Project`
+  - [x] `TaskItem`
+  - [x] `Comment`
+  - [x] `ActivityLog`
+- [x] Define enums (`TaskStatus`, `TaskPriority`, `UserRole`)
 - [ ] Define `IRepository<T>` interface in Domain
 - [ ] Create `AppDbContext` with Fluent API configurations
 - [ ] Create and run initial EF Core migration
@@ -309,11 +309,11 @@ Week 3 — Deploy + Interview Prep       [ ░░░░░░░░░░ ]   0%
 
 | Entity | Defined | EF Config | Migration |
 |---|---|---|---|
-| `User` | ❌ | ❌ | ❌ |
-| `Project` | ❌ | ❌ | ❌ |
-| `TaskItem` | ❌ | ❌ | ❌ |
-| `Comment` | ❌ | ❌ | ❌ |
-| `ActivityLog` | ❌ | ❌ | ❌ |
+| `User` | ✅ | ❌ | ❌ |
+| `Project` | ✅ | ❌ | ❌ |
+| `TaskItem` | ✅ | ❌ | ❌ |
+| `Comment` | ✅ | ❌ | ❌ |
+| `ActivityLog` | ✅ | ❌ | ❌ |
 
 ---
 
